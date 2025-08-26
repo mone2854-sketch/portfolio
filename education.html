@@ -23,7 +23,7 @@
       animation: fadeIn 1s ease;
     }
 
-    /* 左边学历 */
+    /* 左右分栏 */
     .edu-left, .edu-right { flex: 1; }
     .edu-left h2, .edu-right h2 {
       font-family: 'Playfair Display', serif;
@@ -36,6 +36,8 @@
     .edu-item h3 { margin: 0 0 8px; font-size: 1.3rem; color: #111; }
     .edu-item span { display: block; font-size: 0.95rem; color: #666; margin-bottom: 8px; }
     .edu-item p { margin: 0; font-size: 1rem; line-height: 1.5; }
+
+    .edu-item ul { padding-left: 20px; margin: 0; }
 
     /* 按钮 */
     .btn {
@@ -119,8 +121,43 @@
     </div>
   </div>
 
+  <!-- Certifications -->
+  <div class="edu-wrapper" style="margin-top:60px;">
+    <div class="edu-left">
+      <h2>🏆 Certifications</h2>
+
+      <div class="edu-item">
+        <h3>freeCodeCamp</h3>
+        <span>Issued 2025 | No Expiration Date</span>
+        <p>
+          Earned multiple <b>Developer Certifications</b> through <b>freeCodeCamp</b>,  
+          each representing approximately <b>300 hours of coding practice</b> and  
+          real-world projects.
+        </p>
+        <ul style="margin-top:10px; font-size:0.95rem; line-height:1.6;">
+          <li>Responsive Web Design</li>
+          <li>JavaScript Algorithms and Data Structures</li>
+          <li>Scientific Computing with Python</li>
+          <li>Front End Development Libraries</li>
+        </ul>
+        <p style="margin-top:8px;">
+          Credential links available via my  
+          <a href="https://www.freecodecamp.org/certification/hongcher/front-end-development-libraries" target="_blank" style="color:#ff9800; font-weight:600;">
+            freeCodeCamp profile
+          </a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="edu-right">
+      <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.svg" 
+           alt="freeCodeCamp Logo" style="max-width:220px; margin-top:40px;">
+    </div>
+  </div>
+
   <div style="text-align:center; margin-top:40px;">
     <a href="portfolio.html" class="btn">Next: My Portfolio →</a>
   </div>
 </body>
 </html>
+
